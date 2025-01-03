@@ -1,0 +1,27 @@
+.center {padding-bottom: 150px;}
+.center #map{margin-top: 50px; height: 500px; width: 100%; -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+-moz-box-shadow:  5px 5px 5px rgba(0,0,0,0.2);box-shadow:  5px 5px 5px rgba(0,0,0,0.2);}	
+
+.center .way_info {margin:60px 0 0 20px;}
+
+.center .way_info .add{font-size: 26px;}
+.center .way_info .info_tit {color: #999;margin-right: 25px;}
+.center .way_info ul{margin-left: 150px; font-size: 20px; margin-top: 50px;}
+.center .way_info ul li + li {margin-top: 15px;}
+
+.center .g_info{display: flex;}
+.center .g_info span{font-size: 26px; color: #fff;line-height: 60px; display: inline-block; padding:0  60px; background-color: #999999; border-radius:60px;margin: 100px auto;}
+
+.center .way_slide > li.active .s_tit a:after{transform:rotate(45deg);}
+.center .way_slide .s_tit{padding: 20px 0 10px 0; border-bottom: 1px solid #000; }
+.center .way_slide .s_tit a {display: flex; color: #000; font-size: 26px; position: relative;}
+.center .way_slide .s_tit a:after{content: ''; display: block; position: absolute; width: 8px; height: 8px; border-top: 2px solid #000; border-left: 2px solid #000; transform:rotate(-135deg); right: 20px; top: 12px;} 
+.center .way_slide .s_tit a img{display: block; margin: 0 10px;}
+.center .way_slide .s_cont{background-color: #f6f6f6; padding: 55px 0; display: none;}
+.center .way_slide .s_cont_inner{display: flex;}
+.center .way_slide .s_cont ul{margin: auto;}
+.center .way_slide .s_cont ul li {display: flex;font-size: 22px; position: relative; padding-left: 12px;}
+.center .way_slide .s_cont ul li:after{content: '';display: block; position: absolute; width: 4px; height: 4px; border-radius:50%; background-color: #000; top: 50%; left: 0; margin-top: -2px;}
+.center .way_slide .s_cont ul li+li{margin-top: 15px;}
+.line3{width: 30px; justify-content: center;  padding: 2px 0 5px 0;background-color: #ff7300; color: #fff; border-radius:50%;display: flex; margin-right: 4px;}
+.linered{color: #fff; background-color: #a71e31; border-radius:15px; padding: 2px 10px 5px 10px; margin-left: 4px;}

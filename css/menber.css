@@ -1,0 +1,183 @@
+.agree {padding-bottom: 150px;}
+.agree .tb_box{padding:0 30px ;}
+.agree  .agree_check{margin-top: 20px; display: flex;}
+.agree  .agree_check .input_checkbox{line-height: 42px;}
+.agree  .agree_check .btn_line{margin-left: auto;}
+.agree .agree_cont_box{height: 150px; margin-top: 15px; line-height: 1.5;}
+
+.addinfo{padding-bottom: 150px}
+.addinfo .table-type01 .id td {display: flex;}
+.addinfo .table-type01 .id td .btn02.btn_pp{ width: 200px; margin-left: 15px;}
+.addinfo .table-type01 .pw td input {width: 480px;}
+.addinfo .tb_head{font-size: 20px; font-weight: bold; text-align: center;}
+.addinfo .tb_head + .table-type01 + .tb_head {margin-top: 50px;}
+
+.join_ok {padding-bottom: 150px;}
+.join_ok .inner{width: 1320px;}
+.join_ok .line_box{text-align: center; padding: 95px 0; border:1px solid #999999;margin-top: 20px;}
+.join_ok .line_box h3{font-size: 26px; margin-top: 20px;}
+.join_ok .line_box h3 strong{color: #2d0a4f;}
+.join_ok .line_box p{font-size: 20px; margin-top: 15px;}
+
+.inquiry .inner_1{margin-top: 40px;}
+
+
+/* .find_ */
+.find {padding-bottom: 100px;}
+.certInfo{display: flex; align-items: center;}
+.inquiry .log_form .certInfo input{ width: calc(100% - 200px);}
+.certInfo .btn_gray{width: 190px; margin:0 0 0  10px; }
+.certInfo .btn_gray span{font-size: 18px;}
+.inquiry .log_form .certInfo .time{margin-left: 10px; line-height: 1.8; font-size: 18px;}
+.inquiry .log_btn{width: 100%;}
+.find_info{color: #999999; font-size: 26px; margin-top: 60px; text-align: center;}
+.find .btn_wrap .btn{ width: 50%;}
+
+
+/* info_modify */
+.info_check .info_confirm {padding-top: 98px; margin-bottom: 15px; display:flex; justify-content:space-between; align-items:center;}
+.info_check .info_confirm h4 {padding-top:0; margin-bottom:0; margin-top: 15px;}
+.info_check .info_confirm a {width:200px;}
+.info_check .id .id_done {width:480px;}
+
+.info_check .addinfo .join > .btn_wrap {margin-top: 115px;}
+
+
+
+/* id_find_d */
+.id_find_d.table-type01 tr td p {padding:5px 0;}
+.id_find_d.table-type01 tr td p + p {margin-top: 10px;}
+
+
+/* rw */
+
+@media (max-width:1024px) {
+
+	.table-type01 tr th {width:20%;}
+	.table-type01 tr td {padding: 1.95vw 3.9vw;}
+
+	
+	/* info_modify */
+	.info_check h3.p_tit {margin-top:20px;}
+	.info_check .info_confirm {padding-top:50px;}
+	.info_check .info_confirm .btn02 span {font-size: 20px;}
+	.info_check .table-type01 tr td p {font-size: 18px;}
+	.info_check .table-type01 tr .phone select {width: 12.7vw !important;}
+	.info_check .table-type01 tr .phone input {width: 16.6vw;}
+	.info_check .table-type01 tr .mail input:first-child {width: 23.44vw;}
+	.info_check .table-type01 tr .mail input:not(:first-child),
+	.info_check .table-type01 tr .mail select {width: 16.6vw;}
+	
+	.info_check .table-type01 tr .add input:first-child {width: 27.34vw;}
+	.info_check .table-type01 tr .add .add_search {width: 19.53vw;}
+	.info_check .table-type01 tr .add .add_search span {padding-left: 3vw;}
+	.info_check .table-type01 tr .add input:not(:first-child) {width: 100%;}
+
+
+
+	/* login */
+	.inquiry h3.p_tit {margin-top: 80px;}
+	.inquiry .inner_1 {margin: 60px auto 100px;}
+	.inquiry .log_form {max-width: 600px;}
+	.inquiry .log_form input {width:100%;}
+	.inquiry .log_find {margin: 45px auto 30px;}
+	.inquiry .log_btn {max-width: 600px;}
+
+
+}
+
+@media (max-width:910px) {
+	.info_check .table-type01.table03 td label {line-height: 8vw;}
+}
+
+
+@media (max-width:720px) {
+	.addinfo {padding-bottom:13.89vw;}
+	
+
+	.table-type01 tr th {width:24%; font-size: 3.89vw; padding: 4.86vw 2.08vw;}
+	.table-type01 tr td {padding: 2.18vw; font-size: 3.89vw;}
+	
+	.table-type01 tr td input,
+	.table-type01 tr td select,
+	.table-type01 tr td a {height: 8.33vw;}
+	.table-type01 tr td span,
+	.table-type01 tr td input,
+	.info_check .table-type01 tr td p,
+	.table-type01 tr td em,
+	.table-type01 tr td a {font-size: 3.89vw;}
+	.info_check h3.p_tit {margin-top:11.11vw; font-size: 8.33vw;}
+	h4.cont_tit02 {font-size: 5.56vw; margin-bottom: 3.47vw; padding-top: 8.33vw;}
+
+
+
+
+	/* info_modify */
+	
+	.info_check .info_confirm {padding-top: 8.33vw; margin-bottom: 1.39vw;}
+	.info_check .info_confirm h4 {margin-top: 0;}
+	
+	.info_check .info_confirm a {width: 22.22vw !important; height: 8.33vw;}
+	.info_check .info_confirm .btn02 span {font-size: 3.89vw; line-height: 0; line-height: 8.5vw;}
+
+	.info_check .table-type01 .id td input {width:41.67vw;}
+	.info_check .table-type01 .id td .btn02.btn_pp {width:19.44vw; margin-left: 1.39vw;}
+	.info_check .table-type01 .id td .btn02.btn_pp span {line-height: 8.5vw;}
+	.info_check .table-type01 .pw td input {width:100%;}
+
+	.info_check .addinfo .join > .btn_wrap {margin-top: 13.89vw;}
+
+	.info_check h3.p_tit02 {margin-top: 11.11vw;}
+	.info_check .info_confirm {padding-top: 8.33vw;}
+	.info_check .info_confirm h4 {font-size: 5.56vw;}
+	.info_check .info_confirm a.btn02 {width:22.22vw;}
+	.info_check .table-type01.table03 .input_checkbox input {width:25px;}
+	.info_check .table-type01 tr .phone select {width: 13.7vw !important; padding-left: 0; padding-right: 0;}
+	.info_check .table-type01 tr .mail select {width: 25.6vw; padding-left: 0; padding-right: 0;}
+	.info_check .table-type01 tr .mail input:not(:first-child) {width: 25.6vw;}
+	.info_check .table-type01 tr .add .add_search {width:8.33vw;}
+	.info_check table .phone em {width:4.17vw;}
+
+	
+
+	/* login */
+	.inquiry h3.p_tit {margin-top: 11.11vw; font-size: 8.33vw;}
+	.inquiry .inner_1 {margin:6.94vw auto 9.72vw; }
+	.inquiry .tab .inner_1 {margin: 9.72vw auto 13.89vw; font-size: 3.89vw; }
+	.inquiry .log_form {width: calc(100% - 16.67vw); margin: 0 auto;}
+	.inquiry .log_form input {width:100%; height:8.33vw; margin:0;}
+	.inquiry .log_form input[type="text"],
+	.inquiry .log_form input[type="password"]{font-size: 3.89vw;}
+	.inquiry .log_form input + input {margin-top: 1.39vw;}
+	.inquiry .log_find {margin:6.94vw auto; width:100%; width: calc(100% - 16.67vw); justify-content: center;}
+	.inquiry .log_btn {max-width: 600px; width: calc(100% - 16.67vw);}
+	.inquiry .log_option {width: calc(100% - 16.67vw); justify-content: center;}
+	.inquiry .log_option li {margin: 0;}	
+	.inquiry .log_option li a img {width:15.28vw;}
+	.inquiry .log_find li.middot {margin: 0 1.39vw;}
+	
+
+	/* id_find_d */
+	.id_find_d.table-type01 tr td p {padding:1vw;}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
